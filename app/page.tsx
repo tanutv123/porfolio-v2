@@ -107,12 +107,12 @@ export default function Portfolio() {
               <div>
                 <p className="text-muted-foreground mb-4 leading-relaxed">
                   I'm a recent graduate experienced in building web applications. I specialize in C#/.NET,
-                  ReactJS, Angular, and cloud technologies, with a focus on creating performant APIs and accessible user interfaces.
+                  ReactJS, Angular, and cloud technologies, with a focus on creating performant backend applications and accessible user interfaces.
                 </p>
                 <p className="text-muted-foreground mb-4 leading-relaxed">
                   My journey in software development began during my Information Technology studies, where I discovered my
                   passion for creating solutions that solve real-world problems. Since then, I've constantly trying new things with .NET and
-                  cloud technologies to deliver high-quality software products.
+                  related technologies to deliver high-quality software products.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
                   When I'm not coding, you can find me petting a cat, reading tech blogs, or contributing to open-source
@@ -137,13 +137,18 @@ export default function Portfolio() {
               <Card className="transition-all hover:shadow-md">
                 <CardContent className="p-6">
                   <div className="flex flex-col md:flex-row md:items-center justify-between mb-2">
-                    <h3 className="text-xl font-semibold">Bachelor of Science in Software Engineering</h3>
+                    <h3 className="text-xl font-semibold">Bachelor's Degree in Software Engineering</h3>
                     <div className="text-muted-foreground">2022 - 2025</div>
                   </div>
                   <p className="text-muted-foreground">FPT University, Ho Chi Minh City</p>
-                  <p className="mt-4">
-                    Relevant Coursework: OOP, Web Development, Web Design, Data structures and Algorithms, OS, Networking, etc.
-                  </p>
+                  <ul>
+                    <li className={'mt-4'}>
+                      GPA: 3.5/4.0
+                    </li>
+                    <li className={'mt-4'}>
+                        Relevant Coursework: OOP, Web Development, Web Design, Data structures and Algorithms, OS, Networking, etc.
+                    </li>
+                  </ul>
                 </CardContent>
               </Card>
             </div>
@@ -229,6 +234,14 @@ export default function Portfolio() {
                     <Badge>Vercel</Badge>
                     <Badge>Azure</Badge>
                     <Badge>Vite</Badge>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card className="transition-all hover:shadow-md">
+                <CardContent className="pt-6">
+                  <h3 className="text-xl font-semibold mb-4">Languages</h3>
+                  <div className="flex flex-wrap gap-2">
+                    <Badge>English (TOEIC 970/990)</Badge>
                   </div>
                 </CardContent>
               </Card>
