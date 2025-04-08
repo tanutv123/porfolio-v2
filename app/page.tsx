@@ -53,6 +53,9 @@ export default function Portfolio() {
               <Link href="#about" className="text-muted-foreground hover:text-foreground transition-colors">
                 About
               </Link>
+              <Link href="#education" className="text-muted-foreground hover:text-foreground transition-colors">
+                Education
+              </Link>
               <Link href="#skills" className="text-muted-foreground hover:text-foreground transition-colors">
                 Skills
               </Link>
@@ -131,7 +134,7 @@ export default function Portfolio() {
           </section>
 
           {/* Education Section */}
-          <section className="py-8 md:py-16 animate-fade-in">
+          <section id="education" className="py-8 md:py-16 animate-fade-in">
             <h2 className="text-3xl md:text-4xl font-bold mb-8 tracking-tight">Education</h2>
             <div className="space-y-8">
               <Card className="transition-all hover:shadow-md">
@@ -149,6 +152,41 @@ export default function Portfolio() {
                         Relevant Coursework: OOP, Web Development, Web Design, Data structures and Algorithms, OS, Networking, etc.
                     </li>
                   </ul>
+                </CardContent>
+              </Card>
+            </div>
+          </section>
+
+          {/* Awards Section */}
+          <section id="awards" className="py-8 md:py-16 scroll-mt-20 animate-fade-in">
+            <h2 className="text-3xl md:text-4xl font-bold mb-8 tracking-tight">Awards & Recognition</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <Card className="transition-all hover:shadow-md">
+                <CardContent className="p-6">
+                  <div className="flex flex-col gap-2">
+                    <div className="flex items-start justify-between">
+                      <h3 className="text-xl font-semibold">Student Achievement Awards for Excellent Student</h3>
+                      <Badge className="whitespace-nowrap">Fall 2022 - Spring 2023</Badge>
+                    </div>
+                    <p className="text-muted-foreground">FPT University</p>
+                    <p className="mt-2">
+                      University-Wide Academic Excellence Award presented to students with top academic performance across all fields of study
+                    </p>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card className="transition-all hover:shadow-md">
+                <CardContent className="p-6">
+                  <div className="flex flex-col gap-2">
+                    <div className="flex items-start justify-between">
+                      <h3 className="text-xl font-semibold">Honorable Students</h3>
+                      <Badge>Fall 2024 - Summer 2024 - Sring 2024</Badge>
+                    </div>
+                    <p className="text-muted-foreground">FPT University</p>
+                    <p className="mt-2">
+                      Recognized for academic excellence by maintaining a GPA above 3.2 for semesters.
+                    </p>
+                  </div>
                 </CardContent>
               </Card>
             </div>
