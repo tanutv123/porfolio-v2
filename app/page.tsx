@@ -376,7 +376,7 @@ export default function Portfolio() {
               <Card className="overflow-hidden transition-all hover:shadow-md">
                 <div className="relative h-[200px]">
                   <Image
-                      src="/tictactoe.png?height=200&width=400"
+                      src="/tictactoe.PNG?height=200&width=400"
                       alt="E-commerce Platform"
                       fill
                       className="object-cover"
@@ -402,7 +402,7 @@ export default function Portfolio() {
               <Card className="overflow-hidden transition-all hover:shadow-md">
                 <div className="relative h-[200px]">
                   <Image
-                      src="/investment.png?height=200&width=400"
+                      src="/investment.PNG?height=200&width=400"
                       alt="Task Management App"
                       fill
                       className="object-cover"
@@ -428,7 +428,7 @@ export default function Portfolio() {
               <Card>
                 <div className="relative h-[200px]">
                   <Image
-                      src="/placepicker.png?height=200&width=400"
+                      src="/placepicker.PNG?height=200&width=400"
                       alt="Task Management App"
                       fill
                       className="object-cover"
@@ -454,7 +454,7 @@ export default function Portfolio() {
               <Card>
                 <div className="relative h-[200px]">
                   <Image
-                      src="/timer.png?height=200&width=400"
+                      src="/timer.PNG?height=200&width=400"
                       alt="Task Management App"
                       fill
                       className="object-cover"
