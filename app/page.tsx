@@ -83,13 +83,13 @@ export default function Portfolio() {
               <Image src="/avatarresume.jpg?height=128&width=128" alt="John Doe" fill className="object-cover" priority />
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter mb-4">Vo Tan Tai</h1>
-            <h2 className="text-xl md:text-2xl text-muted-foreground mb-6">Backend Developer</h2>
+            <h2 className="text-xl md:text-2xl text-muted-foreground mb-6">Software Developer</h2>
             <div className="flex items-center gap-2 text-muted-foreground mb-8">
               <MapPin className="h-4 w-4" />
               <span>Binh Thanh District, Ho Chi Minh City</span>
             </div>
             <p className="max-w-[42rem] text-muted-foreground mb-8 leading-normal sm:text-xl sm:leading-8">
-              I’m a backend developer who loves crafting clean, scalable web
+              I’m a software developer who loves crafting clean, scalable web
               applications. My goal is to build solutions that offer both
               exceptional performance and a delightful user experience.
             </p>
@@ -110,7 +110,7 @@ export default function Portfolio() {
               <div>
                 <p className="text-muted-foreground mb-4 leading-relaxed">
                   I'm a recent graduate experienced in building web applications. I specialize in C#/.NET,
-                  ReactJS, Angular, and cloud technologies, with a focus on creating performant backend applications and accessible user interfaces.
+                  ReactJS, Angular, and cloud technologies, with a focus on creating performant applications and accessible user interfaces.
                 </p>
                 <p className="text-muted-foreground mb-4 leading-relaxed">
                   My journey in software development began during my Information Technology studies, where I discovered my
@@ -201,25 +201,26 @@ export default function Portfolio() {
                 <div className="flex flex-col md:flex-row md:items-center justify-between mb-2">
                   <h3 className="text-xl font-semibold">Intern Backend Developer</h3>
                   <div className="flex items-center gap-2">
-                    <a href='https://amazingtech.vn/' className="text-muted-foreground underline" target="_blank" rel="noopener noreferrer">Amazing Tech</a>
+                    FPT Software
                     <span className="text-muted-foreground">•</span>
-                    <span className="text-muted-foreground">08/2023 - 12/2023</span>
+                    <span className="text-muted-foreground">08/2023 - 02/2024</span>
                   </div>
                 </div>
                 <p className="text-muted-foreground mb-4">
-                  Started as an intern. Worked on fullstack development in simulated project in Agile Environment.
+                  Started as an intern. Worked on fullstack development in Agile Environment.
                 </p>
                 <ul className="list-disc list-inside text-muted-foreground space-y-2">
-                  <li>Developed and maintained RESTful APIs using ASP.NET Core and Entity Framework Core</li>
-                  <li>
-                    Gained hands-on experience in the Software Development Life Cycle (SDLC), from requirement analysis and implementation to
-                    testing and deployment.
+                  <li> Learn the knowledge about C#, .NET and related technologies (Angular).
                   </li>
                   <li>
-                    Enhanced debugging and problem-solving skills by troubleshooting API issues, reducing response time by 20-50% through optimized
-                    queries and caching strategies.
+                    Learn and develop software development skills.
                   </li>
-                  <li>Participated in agile development processes</li>
+                  <li>
+                    Build a demo web application using ASP.NET Core + Angular.
+                  </li>
+                  <li>
+                    Developed new features and maintained AMS web application using C# Webform, ADO.NET, SQL Server
+                  </li>
                 </ul>
               </div>
             </div>
@@ -279,7 +280,7 @@ export default function Portfolio() {
                 <CardContent className="pt-6">
                   <h3 className="text-xl font-semibold mb-4">Languages</h3>
                   <div className="flex flex-wrap gap-2">
-                    <Badge>English (TOEIC 970/990)</Badge>
+                    <Badge>English (TOEIC L&R: 970 | S&W: 320)</Badge>
                   </div>
                 </CardContent>
               </Card>
@@ -366,6 +367,118 @@ export default function Portfolio() {
               </Card>
             </div>
           </section>
+
+          {/* Design Projects Section */}
+          <section className="py-8 md:py-16 scroll-mt-20 animate-fade-in">
+            <h2 className="text-3xl md:text-4xl font-bold mb-8 tracking-tight">Featured Design Projects(heavily focus on UI)</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <Card className="overflow-hidden transition-all hover:shadow-md">
+                <div className="relative h-[200px]">
+                  <Image
+                      src="/tictactoe.png?height=200&width=400"
+                      alt="E-commerce Platform"
+                      fill
+                      className="object-cover"
+                  />
+                </div>
+                <CardContent className="p-6">
+                  <div className="flex justify-between items-start mb-4">
+                    <h3 className="text-xl font-semibold">Tic Tac Toe</h3>
+                    <div className="flex gap-2">
+                      <a href="https://github.com/tanutv123/tic-tac-toe" className="text-muted-foreground hover:text-foreground" target="_blank" rel="noopener noreferrer">
+                        <Github className="h-5 w-5" />
+                      </a>
+                      <a href="https://tic-tac-toe-orcin-xi-52.vercel.app/" className="text-muted-foreground hover:text-foreground" target="_blank" rel="noopener noreferrer">
+                        <ArrowUpRight className="h-5 w-5" />
+                      </a>
+                    </div>
+                  </div>
+                  <p className="text-muted-foreground mb-4">
+                    A simple application for two-player tic-tac-toe game.
+                  </p>
+                </CardContent>
+              </Card>
+              <Card className="overflow-hidden transition-all hover:shadow-md">
+                <div className="relative h-[200px]">
+                  <Image
+                      src="/investment.png?height=200&width=400"
+                      alt="Task Management App"
+                      fill
+                      className="object-cover"
+                  />
+                </div>
+                <CardContent className="p-6">
+                  <div className="flex justify-between items-start mb-4">
+                    <h3 className="text-xl font-semibold">InvestiMate</h3>
+                    <div className="flex gap-2">
+                      <a href="https://github.com/tanutv123/react-investment-calculator" className="text-muted-foreground hover:text-foreground" target="_blank" rel="noopener noreferrer">
+                        <Github className="h-5 w-5" />
+                      </a>
+                      <a href="https://react-investment-calculator-delta.vercel.app/" className="text-muted-foreground hover:text-foreground" target="_blank" rel="noopener noreferrer">
+                        <ArrowUpRight className="h-5 w-5" />
+                      </a>
+                    </div>
+                  </div>
+                  <p className="text-muted-foreground mb-4">
+                    A simple calculator for your investment
+                  </p>
+                </CardContent>
+              </Card>
+              <Card>
+                <div className="relative h-[200px]">
+                  <Image
+                      src="/placepicker.png?height=200&width=400"
+                      alt="Task Management App"
+                      fill
+                      className="object-cover"
+                  />
+                </div>
+                <CardContent className="p-6">
+                  <div className="flex justify-between items-start mb-4">
+                    <h3 className="text-xl font-semibold">Travel Book</h3>
+                    <div className="flex gap-2">
+                      <a href="https://github.com/tanutv123/react-placepicker" className="text-muted-foreground hover:text-foreground" target="_blank" rel="noopener noreferrer">
+                        <Github className="h-5 w-5" />
+                      </a>
+                      <a href="https://react-placepicker-lac.vercel.app/" className="text-muted-foreground hover:text-foreground" target="_blank" rel="noopener noreferrer">
+                        <ArrowUpRight className="h-5 w-5" />
+                      </a>
+                    </div>
+                  </div>
+                  <p className="text-muted-foreground mb-4">
+                    A simple application that lets you add travelling places to your wishlists.
+                  </p>
+                </CardContent>
+              </Card>
+              <Card>
+                <div className="relative h-[200px]">
+                  <Image
+                      src="/timer.png?height=200&width=400"
+                      alt="Task Management App"
+                      fill
+                      className="object-cover"
+                  />
+                </div>
+                <CardContent className="p-6">
+                  <div className="flex justify-between items-start mb-4">
+                    <h3 className="text-xl font-semibold">Beast Instinct</h3>
+                    <div className="flex gap-2">
+                      <a href="https://github.com/tanutv123/react-timer-countdown" className="text-muted-foreground hover:text-foreground" target="_blank" rel="noopener noreferrer">
+                        <Github className="h-5 w-5" />
+                      </a>
+                      <a href="https://react-timer-countdown.vercel.app/" className="text-muted-foreground hover:text-foreground" target="_blank" rel="noopener noreferrer">
+                        <ArrowUpRight className="h-5 w-5" />
+                      </a>
+                    </div>
+                  </div>
+                  <p className="text-muted-foreground mb-4">
+                    A simple application to test your timer ability.
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+          </section>
+
 
           {/* Contact Section */}
           <section id="contact" className="py-8 md:py-16 scroll-mt-20 animate-fade-in">
