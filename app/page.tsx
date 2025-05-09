@@ -199,7 +199,7 @@ export default function Portfolio() {
               <div className="relative pl-8 border-l border-muted">
                 <div className="absolute w-4 h-4 bg-primary rounded-full -left-2 top-1"></div>
                 <div className="flex flex-col md:flex-row md:items-center justify-between mb-2">
-                  <h3 className="text-xl font-semibold">Intern Backend Developer</h3>
+                  <h3 className="text-xl font-semibold">Intern Software Developer</h3>
                   <div className="flex items-center gap-2">
                     FPT Software
                     <span className="text-muted-foreground">•</span>
